@@ -5,7 +5,7 @@ services:
     build:
       context: .
       args:
-        NODE_ENV: test
+        NODE_ENV: dev
     ports:
       - "8080:80"
     command: npm run test
